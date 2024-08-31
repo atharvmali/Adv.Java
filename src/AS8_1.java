@@ -33,6 +33,5 @@ public class AS8_1 {
 		catch(SQLException e) {
 			e.printStackTrace();
 		}
-		
 	}
 }
