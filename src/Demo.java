@@ -17,8 +17,7 @@ public class Demo {
                 System.out.println("ID: " + id + " Name: " + nm + " Course: " + cls);
             }
             con.close();
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
