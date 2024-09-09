@@ -16,9 +16,7 @@ public class SqlConnection {
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/college", "root", "mysqlroot");
 //			JOptionPane.showMessageDialog(null, "Connection Successful");
 
-		}
-		
-		catch(SQLDataException e) {
+		} catch(SQLDataException e) {
 			JOptionPane.showMessageDialog(null, e);
 		}
 		
